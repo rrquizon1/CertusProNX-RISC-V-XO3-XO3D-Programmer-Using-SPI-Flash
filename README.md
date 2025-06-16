@@ -72,5 +72,10 @@ Notice that it looks very similar to the STM32 IDE! You should fit right in on h
 
 In this workspace I already had them initialized. If you want to learn more about this drivers you can go to src=>bsp. All the drivers of the peripherals used should be here.
 
-Aside from the auto generated .c and .h file I added some .c and .h files that contains the functions used for programmign the MachXO2 and MachXO3D devices:
+Sample Run of the Project is below:
+
+![image](https://github.com/user-attachments/assets/d3be1bf8-2aab-4b16-a9c3-ab094675caf6)
+
+![image](https://github.com/user-attachments/assets/aa415dd6-33d4-4b87-8992-3dedb322f5fe)
+
 
