@@ -14,7 +14,7 @@ There are several key benefits to using external SPI flash memory rather than re
 1. Preserves system RAM: By offloading firmware, configuration data, or resource files to SPI flash, more internal RAM is made available for application logic and peripheral management—beneficial for processors with limited memory like RISC-V cores.
 2. Larger storage capacity: SPI flash devices typically offer significantly larger storage than internal memory. This allows storing large bitstreams, multiple firmware images, or configuration files for multiple devices in the system.
 3. Simplified firmware updates: In complex systems, it is easier to update firmware by simply rewriting the contents of the SPI flash. The main processor (e.g., Lattice CertusPro-NX) can then use the updated data to reprogram or reconfigure connected components. This supports features like in-field or over-the-air (OTA) updates.
-4. Non-volatile storage: Unlike RAM, SPI flash retains data even when power is removed. This makes it ideal for storing critical firmware or bootloaders that must persist across power cycles.
+
 
 The Lattice CertusPro™-NX is a high-performance, low-power FPGA family built on Lattice’s Nexus platform. Designed for compute- and connectivity-intensive applications, it offers advanced features typically found in larger FPGAs, while maintaining the power efficiency and small form factor that Lattice is known for.
 
