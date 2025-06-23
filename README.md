@@ -79,3 +79,12 @@ Sample Run of the Project is below:
 ![image](https://github.com/user-attachments/assets/aa415dd6-33d4-4b87-8992-3dedb322f5fe)
 
 
+Other Notes:
+
+ In this example, an LED blinking is used to indicate activity such as Erase, Program, and Verify via GPIO IP
+ 
+ The bitstream folder contains four files.To run the workspace you only need I2C_SPI_Programming_impl_1_with_XO3_XO3D.mcs :
+  1. I2C_SPI_Programming_impl_1.bit- Certus Pro NX bitstream containing RISCV core
+  2. Blink_impl1.bit- MachXO3LF bitstream  
+  3. Blink_impl1_a.bit- MachXO3D Bitstream
+  4. I2C_SPI_Programming_impl_1_with_XO3_XO3D.mcs- MCS file containing Certus Pro NX, MachXO3LF, and MachXO3D bitstream. This bitstream is generated via Deployment Tool.
